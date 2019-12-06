@@ -14,6 +14,7 @@ public class ContactsAdapter {
         public ContactsViewHolder(@NonNull View itemView){
             super(itemView);
             imgProfile=itemView.findViewById(R.id.imgProfile);
+            //asdasd
         }
     }
 }
