@@ -2,12 +2,12 @@ package com.softwarica.topic5recyclerview;
 
 public class Contacts {
     private String name;
-    private String phoneNo;
+    private String tvType;
     private int imageId;
 
-    public Contacts(String name, String phoneNo, int imageId) {
+    public Contacts(String name, String tvType, int imageId) {
         this.name = name;
-        this.phoneNo = phoneNo;
+        this.tvType = tvType;
         this.imageId = imageId;
     }
 
@@ -19,12 +19,12 @@ public class Contacts {
         this.name = name;
     }
 
-    public String getPhoneNo() {
-        return phoneNo;
+    public String getTvType() {
+        return tvType;
     }
 
-    public void setPhoneNo(String phoneNo) {
-        this.phoneNo = phoneNo;
+    public void setTvType(String phoneNo) {
+        this.tvType = tvType;
     }
 
     public int getImageId() {
